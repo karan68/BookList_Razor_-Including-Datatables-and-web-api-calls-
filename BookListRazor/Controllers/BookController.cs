@@ -10,7 +10,7 @@ namespace BookListRazor.Controllers
 {
     [Route("api/Book")]
     [ApiController]
-    public class BookController : Controller
+    public class BookController : Controller //api isn't supported by default startup.cs
     {
         private readonly ApplicationDbContext _db;
 
